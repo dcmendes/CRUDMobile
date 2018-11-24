@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/bCadastrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cadastrat"
+        app:layout_constraintEnd_toStartOf="@+id/bAlterar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="247dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/bAlterar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_alterar"
+        app:layout_constraintBottom_toBottomOf="@+id/bCadastrar"
+        app:layout_constraintEnd_toStartOf="@+id/bExcluir"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bCadastrar" />
+
+    <Button
+        android:id="@+id/bExcluir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_excluir"
+        app:layout_constraintBottom_toBottomOf="@+id/bAlterar"
+        app:layout_constraintEnd_toStartOf="@+id/bPesquisar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bAlterar" />
+
+    <Button
+        android:id="@+id/bListar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_listar"
+        app:layout_constraintBottom_toBottomOf="@+id/bPesquisar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bPesquisar" />
+
+    <Button
+        android:id="@+id/bPesquisar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_pesquisar"
+        app:layout_constraintBottom_toBottomOf="@+id/bExcluir"
+        app:layout_constraintEnd_toStartOf="@+id/bListar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bExcluir" />
+
+
+</android.support.constraint.ConstraintLayout>
