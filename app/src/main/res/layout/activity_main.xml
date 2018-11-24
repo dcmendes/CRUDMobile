@@ -12,6 +12,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -24,13 +31,15 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="" />
+            android:text=""
+            android:hint="@string/code"/>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/unicurricular" />
+            android:text="@string/unicurricular"
+            />
 
         <EditText
             android:id="@+id/editText2"
@@ -38,7 +47,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="" />
+            android:text=""
+            android:hint="@string/unicurricular"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -51,8 +61,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="" />
+            android:inputType="number"
+            android:text=""
+            android:hint="@string/nota"/>
     </LinearLayout>
 
     <Button
