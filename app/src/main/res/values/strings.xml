@@ -5,4 +5,7 @@
     <string name="btn_excluir">EXCLUIR</string>
     <string name="btn_pesquisar">PESQUISAR</string>
     <string name="btn_listar">LISTAR</string>
+    <string name="code">Código</string>
+    <string name="unicurricular">Unidade Curricular</string>
+    <string name="nota">Nota</string>
 </resources>
